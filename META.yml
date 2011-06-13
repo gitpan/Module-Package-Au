@@ -1,0 +1,30 @@
+---
+abstract: 'Reusable Module::Install bits'
+author:
+  - '唐鳳 <cpan@audreyt.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: cc0
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Module::Package::Au
+name: Module-Package-Au
+no_index:
+  directory:
+    - inc
+requires:
+  Module::Install::GithubMeta: 0.10
+  Module::Install::ReadmeFromPod: 0.12
+  Module::Install::ReadmeMarkdownFromPod: 0.03
+  Module::Package: 0.24
+  Pod::Markdown: 1.110730
+  perl: 5.8.3
+resources:
+  homepage: http://github.com/audreyt/module-package-au/tree
+  repository: git://github.com/audreyt/module-package-au.git
+version: 0.01
